@@ -15,7 +15,8 @@ class bus
         void hyderabad ();
 };
 void bus::kolkata()
-{   cout<<"--------------------------\n";
+{   system("cls");
+    cout<<"--------------------------\n";
     cout<<"List of Buses for Kolkata : \n";
     cout<<"Enter the S.No to proceed \n";
     cout<<"1. AC , Cost Per Seat - 159INR \n2. Non AC , Cost Per Seat - 99INR\n";
@@ -76,7 +77,7 @@ void bus::kolkata()
     getch();
 }
 void bus::delhi()
-{
+{   system("cls");
     cout<<"--------------------------\n";
     cout<<"List of Buses for Delhi : \n";
     cout<<"Enter the S.No to proceed \n";
@@ -138,7 +139,7 @@ void bus::delhi()
     getch();
 }
 void bus::hyderabad()
-{
+{   system("cls");
     cout<<"--------------------------\n";
     cout<<"List of Buses for Hydeabad : \n";
     cout<<"Enter the S.No to proceed \n";
@@ -200,7 +201,7 @@ void bus::hyderabad()
     getch();
 }
 void bus::bangalore()
-{
+{   system("cls");
     cout<<"--------------------------\n";
     cout<<"List of Buses for Bangalore : \n";
     cout<<"Enter the S.No to proceed \n";
@@ -262,7 +263,7 @@ void bus::bangalore()
     getch();
 }
 void bus::mumbai()
-{
+{   system("cls");
     cout<<"--------------------------\n";
     cout<<"List of Buses for Mumbai : \n";
     cout<<"Enter the S.No to proceed \n";
@@ -324,7 +325,8 @@ void bus::mumbai()
     getch();
 }
 int main(){
-    system("Color 0A");
+    system("cls");
+    system("color 0A");
     int a;
     char b;
     bus obj;
